@@ -1,0 +1,9 @@
+runtime: custom
+env: flex
+
+service: guestbook
+
+env_variables:
+  READER_URL: https://reader-dot-bitkub-moonshot-test.uc.r.appspot.com
+  COMMENTER_URL: https://commenter-dot-bitkub-moonshot-test.uc.r.appspot.com
+  
